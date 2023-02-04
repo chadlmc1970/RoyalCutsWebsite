@@ -154,6 +154,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 /* Header Section */
+.intro-logo {
+	width: 10em; height: auto; border: 0;
+}
+
 .intro {
 	display: table;
 	width: 100%;
