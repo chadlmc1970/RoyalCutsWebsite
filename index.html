@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add('js');</script>
 <title>Royal Cuts Lawnscape Co. | Lawn & Landscaping in Baton Rouge, LA</title>
 <meta name="description" content="Royal Cuts Lawnscape Co. — Crowning Curb Appeal. Full-service lawn maintenance, landscaping, irrigation, drainage, lighting & sod across East & West Baton Rouge Parish. Free estimates: (225) 202-4029.">
 <link rel="canonical" href="https://royalcutslc.com/">
@@ -121,10 +122,10 @@
 <!-- TRUST BAR -->
 <section class="trust">
   <div class="container trust-grid">
-    <div class="trust-stat"><div class="num">10+</div><div class="label">Years in Business</div></div>
-    <div class="trust-stat"><div class="num">2</div><div class="label">Parishes Served</div></div>
-    <div class="trust-stat"><div class="num">8</div><div class="label">Services Offered</div></div>
-    <div class="trust-stat"><div class="num">100%</div><div class="label">Satisfaction Focused</div></div>
+    <div class="trust-stat"><div class="num" data-target="10" data-suffix="+">10+</div><div class="label">Years in Business</div></div>
+    <div class="trust-stat"><div class="num" data-target="2" data-suffix="">2</div><div class="label">Parishes Served</div></div>
+    <div class="trust-stat"><div class="num" data-target="8" data-suffix="">8</div><div class="label">Services Offered</div></div>
+    <div class="trust-stat"><div class="num" data-target="100" data-suffix="%">100%</div><div class="label">Satisfaction Focused</div></div>
   </div>
 </section>
 
@@ -136,7 +137,7 @@
       <h2>One crew for your whole property</h2>
       <p class="lead">From a weekly cut to a full landscape transformation, Royal Cuts handles it all, so you deal with one trusted local team instead of five.</p>
     </div>
-    <div class="svc-grid">
+    <div class="svc-grid" data-stagger>
       <article class="svc-card reveal">
         <div class="svc-thumb"><img src="img/services/lawn.jpg" alt="Freshly mowed lawn with clean stripes" loading="lazy"></div>
         <div class="svc-body"><span class="svc-tag">Weekly / Biweekly</span><h3>Lawn Maintenance</h3><p>Mowing, edging, weed-eating, and blow-down on a schedule that keeps your yard sharp all season with commercial-grade equipment.</p></div>
@@ -202,13 +203,13 @@
       <h2>Yards that get the Royal treatment</h2>
       <p class="lead">A look at the kind of results we deliver across the Baton Rouge area. <!-- TODO(Randall): swap these for real photos of your own jobs for maximum impact. --></p>
     </div>
-    <div class="gallery-grid reveal">
-      <figure class="gallery-item" data-full="img/gallery/g1-curb.jpg"><img src="img/gallery/g1-curb.jpg" alt="Manicured front-yard landscaping and curb appeal" loading="lazy"><figcaption class="gallery-cap">Curb Appeal</figcaption></figure>
-      <figure class="gallery-item" data-full="img/gallery/g2-mowing.jpg"><img src="img/gallery/g2-mowing.jpg" alt="Fresh lawn maintenance and mowing" loading="lazy"><figcaption class="gallery-cap">Lawn Maintenance</figcaption></figure>
-      <figure class="gallery-item" data-full="img/gallery/g3-beds.jpg"><img src="img/gallery/g3-beds.jpg" alt="Landscaped garden beds and planting" loading="lazy"><figcaption class="gallery-cap">Landscaping</figcaption></figure>
-      <figure class="gallery-item" data-full="img/gallery/g4-irrigation.jpg"><img src="img/gallery/g4-irrigation.jpg" alt="Irrigation sprinkler system in action" loading="lazy"><figcaption class="gallery-cap">Irrigation</figcaption></figure>
-      <figure class="gallery-item" data-full="img/gallery/g5-christmas.jpg"><img src="img/gallery/g5-christmas.jpg" alt="Holiday Christmas light installation" loading="lazy"><figcaption class="gallery-cap">Christmas Lights</figcaption></figure>
-      <figure class="gallery-item" data-full="img/gallery/g6-sod.jpg"><img src="img/gallery/g6-sod.jpg" alt="Fresh sod installation" loading="lazy"><figcaption class="gallery-cap">Sod Installation</figcaption></figure>
+    <div class="gallery-grid" data-stagger>
+      <figure class="gallery-item reveal" data-full="img/gallery/g1-curb.jpg"><img src="img/gallery/g1-curb.jpg" alt="Manicured front-yard landscaping and curb appeal" loading="lazy"><figcaption class="gallery-cap">Curb Appeal</figcaption></figure>
+      <figure class="gallery-item reveal" data-full="img/gallery/g2-mowing.jpg"><img src="img/gallery/g2-mowing.jpg" alt="Fresh lawn maintenance and mowing" loading="lazy"><figcaption class="gallery-cap">Lawn Maintenance</figcaption></figure>
+      <figure class="gallery-item reveal" data-full="img/gallery/g3-beds.jpg"><img src="img/gallery/g3-beds.jpg" alt="Landscaped garden beds and planting" loading="lazy"><figcaption class="gallery-cap">Landscaping</figcaption></figure>
+      <figure class="gallery-item reveal" data-full="img/gallery/g4-irrigation.jpg"><img src="img/gallery/g4-irrigation.jpg" alt="Irrigation sprinkler system in action" loading="lazy"><figcaption class="gallery-cap">Irrigation</figcaption></figure>
+      <figure class="gallery-item reveal" data-full="img/gallery/g5-christmas.jpg"><img src="img/gallery/g5-christmas.jpg" alt="Holiday Christmas light installation" loading="lazy"><figcaption class="gallery-cap">Christmas Lights</figcaption></figure>
+      <figure class="gallery-item reveal" data-full="img/gallery/g6-sod.jpg"><img src="img/gallery/g6-sod.jpg" alt="Fresh sod installation" loading="lazy"><figcaption class="gallery-cap">Sod Installation</figcaption></figure>
     </div>
   </div>
 </section>
@@ -221,7 +222,7 @@
       <h2>Baton Rouge homeowners trust Royal Cuts</h2>
       <p class="lead"><!-- TODO(Randall): replace the sample reviews below with real Google reviews before launch. See README. -->What neighbors say about working with our crew.</p>
     </div>
-    <div class="reviews-grid">
+    <div class="reviews-grid" data-stagger>
       <article class="review-card reveal">
         <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"Royal Cuts turned our overgrown backyard around in a single visit and kept it perfect all summer. Always on time and easy to deal with."</p>
