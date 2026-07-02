@@ -1,14 +1,14 @@
 /* Royal Cuts Lawn Care — design system */
 
 :root {
-  --green-900: #0f3d24;
-  --green-800: #14532d;
-  --green-700: #166534;
-  --green-600: #15803d;
-  --green-500: #1f9d4d;
-  --gold: #c99f38;
-  --gold-400: #d9b64a;
-  --gold-300: #e8c766;
+  --green-900: #12331f;
+  --green-800: #1d4a2d;
+  --green-700: #2b5d3a;
+  --green-600: #367044;
+  --green-500: #4b8a5c;
+  --gold: #c2a03e;
+  --gold-400: #d0b055;
+  --gold-300: #e2c87d;
   --cream: #f8f7f1;
   --cream-200: #efeee4;
   --ink: #16241c;
@@ -27,6 +27,7 @@
 
   --font-head: "Fraunces", Georgia, "Times New Roman", serif;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-script: "Yellowtail", "Segoe Script", cursive;
 }
 
 * { box-sizing: border-box; }
@@ -99,10 +100,10 @@ a { color: var(--green-700); text-decoration: none; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; width: 100%; }
 
 .brand { display: inline-flex; align-items: center; gap: .6rem; color: var(--green-900); }
-.brand .crown { width: 34px; color: var(--gold); flex: none; }
+.brand .mark { width: 32px; color: var(--gold); flex: none; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
-.brand-name { font-family: var(--font-head); font-weight: 600; font-size: 1.28rem; letter-spacing: -.01em; }
-.brand-sub { font-size: .62rem; letter-spacing: .22em; text-transform: uppercase; color: var(--green-600); margin-top: 3px; }
+.brand-name { font-family: var(--font-script); font-weight: 400; font-size: 1.7rem; line-height: .82; letter-spacing: 0; }
+.brand-sub { font-size: .62rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-top: 2px; }
 .site-header:not(.scrolled) .brand { color: #fff; }
 .site-header:not(.scrolled) .brand-sub { color: var(--gold-300); }
 
@@ -243,7 +244,7 @@ a { color: var(--green-700); text-decoration: none; }
 .site-footer { background: #0b2c1b; color: #bcd2c4; padding: 3.5rem 0 1.5rem; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2rem; padding-bottom: 2.4rem; border-bottom: 1px solid rgba(255,255,255,.1); }
 .site-footer .brand-name { color: #fff; }
-.site-footer .crown { width: 30px; color: var(--gold-300); }
+.site-footer .mark { width: 30px; color: var(--gold-300); }
 .footer-col h4 { color: #fff; font-family: var(--font-body); font-size: .85rem; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 1rem; }
 .footer-col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .55rem; }
 .footer-col a { color: #bcd2c4; }

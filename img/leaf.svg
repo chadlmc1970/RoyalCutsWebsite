@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Royal Cuts Lawnscape Co.">
-  <rect width="64" height="64" rx="14" fill="#2b5d3a"/>
-  <g fill="none" stroke="#d3b25a" stroke-width="2.1" stroke-linecap="round">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Royal Cuts sprig">
+  <g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round">
     <path d="M32 53 C 29.5 43 30.5 28 39 15"/>
   </g>
-  <g fill="#d3b25a">
+  <g fill="currentColor">
     <ellipse cx="23.5" cy="47" rx="6.6" ry="2.7" transform="rotate(-32 23.5 47)"/>
     <ellipse cx="39" cy="41" rx="6.6" ry="2.7" transform="rotate(34 39 41)"/>
     <ellipse cx="25" cy="38.5" rx="6.4" ry="2.6" transform="rotate(-28 25 38.5)"/>

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 56" role="img" aria-label="Royal Cuts crown">
-  <path d="M14 41 L11.5 21 L22 28.5 L32 15 L42 28.5 L52.5 21 L50 41 Z" fill="currentColor"/>
-  <rect x="13.5" y="41" width="37" height="7.5" rx="2.4" fill="currentColor"/>
-  <circle cx="11.5" cy="21" r="2.6" fill="currentColor"/>
-  <circle cx="32" cy="15" r="2.9" fill="currentColor"/>
-  <circle cx="52.5" cy="21" r="2.6" fill="currentColor"/>
-</svg>
