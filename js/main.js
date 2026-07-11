@@ -146,25 +146,20 @@
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    var key = form.querySelector('input[name="access_key"]').value;
-    if (!key || key === "YOUR_WEB3FORMS_ACCESS_KEY") {
-      setStatus("err", "The form isn't connected yet. Please call (225) 202-4029 or email randall@royalcutslc.com.");
-      return;
-    }
     var btn = form.querySelector('button[type="submit"]');
     var original = btn.textContent;
     btn.disabled = true;
     btn.textContent = "Sending…";
 
     var data = new FormData(form);
-    fetch("https://api.web3forms.com/submit", {
+    fetch("https://formsubmit.co/ajax/Royalcutslawnscape@gmail.com", {
       method: "POST",
       body: data,
       headers: { Accept: "application/json" }
     })
       .then(function (r) { return r.json(); })
       .then(function (json) {
-        if (json.success) {
+        if (json.success === true || json.success === "true") {
           form.reset();
           setStatus("ok", "Thanks! Your request is on its way. We'll be in touch within one business day.");
         } else {
@@ -172,7 +167,7 @@
         }
       })
       .catch(function () {
-        setStatus("err", "Network error. Please call (225) 202-4029 or email randall@royalcutslc.com.");
+        setStatus("err", "Network error. Please call (225) 202-4029 or email Royalcutslawnscape@gmail.com.");
       })
       .finally(function () {
         btn.disabled = false;
