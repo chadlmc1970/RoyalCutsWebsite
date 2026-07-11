@@ -344,3 +344,21 @@ body.loaded .hero-inner > .hero-chips { animation-delay: .6s; }
   .site-header.scrolled .brand { transform: none; }
   * { scroll-behavior: auto !important; }
 }
+
+/* Messenger chat button (floating) */
+.chat-fab {
+  position: fixed; right: 20px; bottom: 20px; z-index: 150;
+  display: inline-flex; align-items: center; gap: .5rem;
+  padding: .6rem 1rem .6rem .7rem;
+  background: var(--green-700); color: #fff;
+  border-radius: 999px; box-shadow: var(--shadow-md);
+  font-weight: 600; font-size: .95rem; line-height: 1;
+  transition: background .2s, transform .2s, box-shadow .2s;
+}
+.chat-fab:hover { background: var(--green-600); color: #fff; transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.chat-fab:focus-visible { outline: 3px solid var(--gold-300); outline-offset: 2px; }
+.chat-fab-icon { width: 26px; height: 26px; flex: none; }
+@media (max-width: 560px) {
+  .chat-fab { right: 16px; bottom: 16px; padding: .7rem; }
+  .chat-fab-label { display: none; }
+}
