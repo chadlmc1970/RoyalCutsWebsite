@@ -18,13 +18,15 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./mail/contact_me.php",
+                url: "https://formsubmit.co/ajax/Royalcutslawnscape@gmail.com",
                 type: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     email: email,
                     service: service,
-                    message: message
+                    message: message,
+                    _subject: "Website Contact Form: " + name
                 },
                 cache: false,
                 success: function() {

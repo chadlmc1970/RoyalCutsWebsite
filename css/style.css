@@ -623,3 +623,14 @@ color: #777;
 	float: left; 
 	margin-top: -7px;
 	margin-right: 5px; }
+/* Facebook links + Silicon Bayou credit */
+.social-follow { margin-top: 8px; }
+.social-follow a { color: #fff; font-size: 15px; text-decoration: none; }
+.social-follow a:hover { color: #1877f2; }
+.social-follow .fa { margin-right: 6px; }
+.contact-item .fb-link { color: #1877f2; text-decoration: none; }
+.contact-item .fb-link:hover { text-decoration: underline; }
+.contact-item .fb-link .fa { margin-right: 6px; }
+#footer .powered-by { font-size: 12px; opacity: 0.7; margin-top: 6px; }
+#footer .powered-by a { color: inherit; text-decoration: underline; }
+#footer .powered-by a:hover { color: #1877f2; }
