@@ -128,6 +128,10 @@ a { color: var(--green-700); text-decoration: none; }
 .header-cta { display: flex; align-items: center; gap: .7rem; }
 .header-phone { display: inline-flex; align-items: center; gap: .45rem; font-weight: 600; color: var(--green-800); }
 .site-header:not(.scrolled) .header-phone { color: #fff; }
+.header-fb { display: inline-flex; align-items: center; color: var(--green-700); transition: color .2s, transform .2s; }
+.header-fb:hover { color: #1877f2; transform: translateY(-1px); }
+.site-header:not(.scrolled) .header-fb { color: #fff; }
+.site-header:not(.scrolled) .header-fb:hover { color: var(--gold-300); }
 
 .nav-toggle { display: none; background: none; border: 0; cursor: pointer; padding: .4rem; }
 .nav-toggle span { display: block; width: 24px; height: 2px; background: currentColor; margin: 5px 0; border-radius: 2px; transition: .25s; color: var(--green-900); }
